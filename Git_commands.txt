@@ -1,0 +1,13 @@
+Git Commmands
+
+First we will create a FORK and then we will clone the copy in our local.
+
+git checkout master 
+git checkout -b create_branch
+git remote add upstream cloned (url of main repo from which the fork is created)
+git fetch upstream  //It will fetch all the branches
+git merge upstream/repo_branch_name[adithya]
+git add files 
+git commit
+git push origin/local_branch[adithya-dev]	
+compare and pull request.(create the PR from UI===Compare across forks)
